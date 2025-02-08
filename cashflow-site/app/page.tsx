@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import HeroSection from "@/components/local/Hero";
+import FeaturesSection from "@/components/local/FeatureSection";
 
 export default function Home() {
   return (
@@ -10,7 +12,8 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <p>Hello, world!</p>
+      <HeroSection />
+      <FeaturesSection />
     </motion.div>
   );
 }
