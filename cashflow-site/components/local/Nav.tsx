@@ -18,7 +18,7 @@ const Nav: React.FC = () => {
 
   return (
     <Container>
-      <nav className="bg-white ">
+      <nav>
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-gray-800">

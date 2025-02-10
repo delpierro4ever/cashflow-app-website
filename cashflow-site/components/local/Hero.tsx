@@ -10,7 +10,7 @@ import Container from "./Container"; // Optional: use your reusable container fo
 const HeroSection: React.FC = () => {
   return (
     <Container>
-      <section className="py-12">
+      <section className="py-12 my-12">
         <div className=" text-center justify-center md:flex items-center md:text-left gap-8 ">
           {/* First Column */}
           <div className="flex-1">
