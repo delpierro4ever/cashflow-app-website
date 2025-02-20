@@ -65,18 +65,18 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="bg-white text-black py-16 px-4 my-32">
+    <section className="bg-white text-black py-16 px-4 my-32" id="faq">
       <FadeUp>
         <div className="container mx-auto text-center">
           <motion.h2
-            className="text-4xl font-bold text-[#0F3554]"
+            className="text-4xl font-bold text-[#0F3554] lg:text-6xl"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
             Frequently Asked Questions
           </motion.h2>
-          <p className="text-gray-500 max-w-2xl mx-auto mt-2">
+          <p className="text-gray-500 max-w-2xl mx-auto mt-2 lg:text-xl">
             Know more about Cashflow
           </p>
 

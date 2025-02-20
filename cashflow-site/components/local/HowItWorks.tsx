@@ -34,10 +34,10 @@ const HowItWorks = () => {
       <Container>
         <FadeUp>
           <div className="text-center pb-16">
-            <h2 className="text-3xl font-bold   text-[#2A4365]">
+            <h2 className="text-3xl font-bold lg:text-6xl  text-[#2A4365]">
               How it works
             </h2>
-            <p className="text-gray-600   mt-2">
+            <p className="text-gray-600  md:text-xl mt-2">
               Get started with the quick and easy steps to follow
             </p>
           </div>

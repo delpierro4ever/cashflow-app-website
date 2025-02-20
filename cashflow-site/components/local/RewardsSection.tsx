@@ -38,7 +38,7 @@ const RewardsSection = () => {
   };
 
   return (
-    <section className="bg-secondary py-32 text-white my-32">
+    <section className="bg-secondary py-32 text-white my-32" id="reward">
       <Container>
         <FadeUp>
           {/* Heading & Description */}
@@ -48,10 +48,10 @@ const RewardsSection = () => {
             viewport={{ once: true, margin: "-100px" }}
             className="mb-16 text-center"
           >
-            <h2 className="text-4xl font-bold mb-4 text-grey-200">
+            <h2 className="text-4xl font-bold mb-4 text-grey-200 lg:text-6xl">
               Rewards Tiers
             </h2>
-            <p className="text-gray-100 max-w-2xl mx-auto">
+            <p className="text-gray-100 max-w-2xl mx-auto lg:text-xl">
               Unlock greater benefits as you reach new transaction milestones.
               Enjoy consistent cashback rewards at every tier.
             </p>

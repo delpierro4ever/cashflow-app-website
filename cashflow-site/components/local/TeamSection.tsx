@@ -36,7 +36,7 @@ const teamMembers = [
 const TeamSection = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   return (
-    <section className="bg-[#0F3554] text-white py-16 px-4">
+    <section className="bg-[#0F3554] text-white py-16 px-4" id="teams">
       <Container>
         <FadeUp>
           <div className="container mx-auto text-center">
@@ -45,10 +45,10 @@ const TeamSection = () => {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mb-10"
+              className="mb-14"
             >
-              <h2 className="text-4xl font-bold">Our Team</h2>
-              <p className="text-gray-300 max-w-2xl mx-auto mt-4">
+              <h2 className="text-4xl font-bold lg:text-6xl">Our Team</h2>
+              <p className="text-gray-300 mx-auto mt-4 lg:text-xl">
                 As a dynamic team of experts, we specialize in delivering
                 cutting-edge solutions across a diverse spectrum of services.
                 With a relentless commitment to quality, integrity, and client

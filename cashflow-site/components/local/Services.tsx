@@ -28,14 +28,14 @@ const steps = [
 
 const Services = () => {
   return (
-    <section className="mb-20">
+    <section className="mb-20" id="features">
       <Container>
         <FadeUp>
           <div className="text-center pb-16">
-            <h2 className="text-3xl font-bold   text-[#2A4365]">
+            <h2 className="text-3xl font-bold   text-[#2A4365] lg:text-6xl">
               Our Features
             </h2>
-            <p className="text-gray-600 mt-2">
+            <p className="text-gray-600 mt-2 lg:text-xl">
               Earn rewards as you use CashFlow, with cashback on transactions
               that exceed your free limit
             </p>

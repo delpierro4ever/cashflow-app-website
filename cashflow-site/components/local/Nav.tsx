@@ -33,33 +33,30 @@ const Nav: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-6">
-            <Link
-              href="/how-it-works"
-              className="text-gray-600 hover:text-gray-900"
-            >
+            <Link href="#hero" className="text-gray-600 hover:text-gray-900">
               How it works
             </Link>
             <Link
-              href="/features"
+              href="#features"
               className="text-gray-600 hover:text-gray-900"
             >
               Our Features
             </Link>
             <Link
-              href="/subscription"
+              href="#subscription"
               className="text-gray-600 hover:text-gray-900"
             >
               Subscription
             </Link>
-            <Link href="/team" className="text-gray-600 hover:text-gray-900">
+            <Link href="#teams" className="text-gray-600 hover:text-gray-900">
               Our Team
             </Link>
-            <Link href="/faq" className="text-gray-600 hover:text-gray-900">
+            <Link href="#faq" className="text-gray-600 hover:text-gray-900">
               FAQ
             </Link>
           </div>
           {/* Shadcn UI Button for Contact Us */}
-          <Link href="/contact" className="hidden lg:flex">
+          <Link href="#contact" className="hidden lg:flex">
             <Button variant="default" className="ml-4">
               Contact Us
             </Button>
@@ -104,36 +101,36 @@ const Nav: React.FC = () => {
           <div className="md:hidden bg-white shadow-inner text-center">
             <div className="px-4 pt-8 pb-8 space-y-6">
               <Link
-                href="/how-it-works"
+                href="#hero"
                 className="block text-gray-600 hover:text-gray-900"
               >
                 How it works
               </Link>
               <Link
-                href="/features"
+                href="#features"
                 className="block text-gray-600 hover:text-gray-900"
               >
                 Our Features
               </Link>
               <Link
-                href="/subscription"
+                href="#subscription"
                 className="block text-gray-600 hover:text-gray-900"
               >
                 Subscription
               </Link>
               <Link
-                href="/team"
+                href="#teams"
                 className="block text-gray-600 hover:text-gray-900"
               >
                 Our Team
               </Link>
               <Link
-                href="/faq"
+                href="#faq"
                 className="block text-gray-600 hover:text-gray-900"
               >
                 FAQ
               </Link>
-              <Link href="/contact">
+              <Link href="#contact">
                 <Button variant="default" className="w-full mt-8">
                   Contact Us
                 </Button>

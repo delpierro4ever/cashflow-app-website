@@ -6,16 +6,16 @@ import FadeUp from "./FadeUp";
 
 const FeaturesSection: React.FC = () => {
   return (
-    <section className="py-40 my-20 bg-[#E5F1F8]">
+    <section className="py-40 my-20 bg-[#E5F1F8]" id="feature">
       <Container>
         <FadeUp>
           <div className="max-w-6xl mx-auto px-6 text-center">
             {/* Heading */}
-            <h2 className="text-3xl md:text-4xl font-semibold text-secondary">
+            <h2 className="text-3xl md:text-6xl font-semibold text-secondary">
               CashFlow offers <br />{" "}
               <span className="font-bold">competitive rates</span>
             </h2>
-            <p className="mt-4 text-gray-700 text-lg">
+            <p className="mt-4 text-gray-700 text-lg md:text-xl">
               Designed to keep digital transactions affordable. Here’s a
               breakdown of our main charges:
             </p>

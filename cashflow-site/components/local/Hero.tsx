@@ -9,17 +9,17 @@ import Container from "./Container"; // Optional: use your reusable container fo
 
 const HeroSection: React.FC = () => {
   return (
-    <Container>
+    <Container id="hero">
       <section className="py-12 my-12">
         <div className=" text-center justify-center md:flex items-center md:text-left gap-8 ">
           {/* First Column */}
           <div className="flex-1">
-            <h1 className="text-4xl md:text-6xl font-bold text-secondary leading-9">
+            <h1 className="text-4xl lg:text-8xl font-bold text-secondary leading-9">
               Day to day <br /> <span className="text-primary">payments</span>
               <br />
               made simple
             </h1>
-            <p className="mt-4 text-lg text-gray-700">
+            <p className="mt-4 text-lg lg:text-xl text-gray-700">
               This is a description under the large text, explaining the main
               value proposition or features of your product or service.
             </p>

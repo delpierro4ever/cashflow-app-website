@@ -39,9 +39,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6">
-      <h2 className="text-3xl font-semibold text-center">Get in touch</h2>
-      <p className="text-center text-gray-500 mb-6">
+    <div className="max-w-2xl mx-auto p-6" id="contact">
+      <h2 className="text-3xl font-semibold text-center lg:text-6xl">
+        Get in touch
+      </h2>
+      <p className="text-center text-gray-500 mb-6 lg:text-xl">
         Have further inquiries? Send us a message.
       </p>
       <form onSubmit={handleSubmit} className="space-y-4">

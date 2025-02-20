@@ -9,14 +9,14 @@ import FadeUp from "./FadeUp";
 
 const SubscriptionPlans = () => {
   return (
-    <section className="my-32">
-      <Container className="my-32">
+    <section className="my-24 md:pt-24 md:pb-24" id="subscription">
+      <Container>
         <FadeUp>
           <div className="max-w-6xl mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold text-[#2A4365]">
+            <h2 className="text-3xl lg:text-6xl font-bold text-[#2A4365]">
               Our Subscription Plans
             </h2>
-            <p className="text-gray-600 mt-2">
+            <p className="text-gray-600 mt-2 lg:text-xl">
               Choose the plan that fits your needs and enjoy great perks along
               the way.
             </p>
